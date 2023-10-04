@@ -43,17 +43,17 @@ public class Dice_Game {
 		System.out.println("Enter p1 name: ");
 		p1.accept(scanner.next());
 
-		System.out.println("Enter p1 name: ");
-		p1.accept(scanner.next());
+		System.out.println("Enter p2 name: ");
+		p2.accept(scanner.next());
 
 		p1.throwDice(d1, d2);
 		p2.throwDice(d1, d2);
 
 		String re = "";
 		if (p1.pValue > p2.pValue) {
-			System.out.println(p1.pname + "p1 wins");
+			System.out.println(p1.pname + ": p1 wins");
 		} else if (p2.pValue > p1.pValue) {
-			System.out.println(p2.pname + "p1 wins");
+			System.out.println(p2.pname + ": p1 wins");
 		} else {
 			re = "Try Again";
 		}
