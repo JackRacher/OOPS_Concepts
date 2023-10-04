@@ -1,6 +1,11 @@
 package sample;
 
 public class String_Example2 {
+	
+	/**
+	 * finding only unique chars in the given string(deleting duplicates in the given string)
+	 * @param args
+	 */
 	public static void main(String[] args) {
 
         String str="arraypapaa";

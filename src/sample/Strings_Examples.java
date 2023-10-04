@@ -2,6 +2,10 @@ package sample;
 
 public class Strings_Examples {
 
+	/**
+	 * Finding unique chars in the given string 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		String s1 = "arraypapaaaa";
 		String s2 = "";
