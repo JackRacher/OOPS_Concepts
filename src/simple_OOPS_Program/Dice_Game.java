@@ -43,6 +43,7 @@ public class Dice_Game {
 		System.out.println("Enter p1 name: ");
 		p1.accept(scanner.next());
 
+		//Printing Player name
 		System.out.println("Enter p2 name: ");
 		p2.accept(scanner.next());
 
