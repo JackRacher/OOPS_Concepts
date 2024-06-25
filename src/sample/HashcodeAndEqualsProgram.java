@@ -5,21 +5,21 @@ import java.util.Objects;
 class Laptop {
 	int model;
 	String name;
-//	@Override
-//	public int hashCode() {
-//		return Objects.hash(model, name);
-//	}
-//	@Override
-//	public boolean equals(Object obj) {
-//		if (this == obj)
-//			return true;
-//		if (obj == null)
-//			return false;
-//		if (getClass() != obj.getClass())
-//			return false;
-//		Laptop other = (Laptop) obj;
-//		return model == other.model && Objects.equals(name, other.name);
-//	}
+	@Override
+	public int hashCode() {
+		return Objects.hash(model, name);
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Laptop other = (Laptop) obj;
+		return model == other.model && Objects.equals(name, other.name);
+	}
 
 	
 	  
